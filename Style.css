@@ -159,7 +159,13 @@ a:hover{
     font-weight: 500;
 }
 
-@media screen and (max-width: 1120px){
+@media screen and (max-width: 1270px){
+    .card{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 1140px){
     .Cards-top{
         display: flex;
         flex-wrap: wrap;
@@ -175,6 +181,12 @@ a:hover{
         margin-right: 15px;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .Cards-top{
+        width: 280px;
     }
 }
 
