@@ -223,18 +223,14 @@ a:hover{
 .wrapper .remember-forgot{
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 14px;
     margin: -15px 0 15px;
 }
 
 .remember-forgot a{
+    display: flex;
     color: #fff;
-}
-
-.remember-forgot label input{
-    accent-color: #fff;
-    margin-right: 3px;
 }
 
 .remember-forgot a:hover{
@@ -269,4 +265,10 @@ a:hover{
 
 .register-link p a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 540px) {
+    .wrapper{
+        width: 180px;
+    }
 }
