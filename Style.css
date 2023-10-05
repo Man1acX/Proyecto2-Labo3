@@ -173,6 +173,11 @@ a:hover{
     }
 }
 
+@media screen and (max-width: 380px) {
+    .card{
+        width: 160px;
+    }
+}
 
 /* Estilo del login y register*/
 
